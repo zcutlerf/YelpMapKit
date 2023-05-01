@@ -11,6 +11,7 @@
 		5D85439A2A0042A4007FB09A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543992A0042A4007FB09A /* ContentView.swift */; };
 		5D85439C2A0042A5007FB09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85439B2A0042A5007FB09A /* Assets.xcassets */; };
 		5D85439F2A0042A5007FB09A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85439E2A0042A5007FB09A /* Preview Assets.xcassets */; };
+		5D8543A62A0045C1007FB09A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543A52A0045C1007FB09A /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5D8543992A0042A4007FB09A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D85439B2A0042A5007FB09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D85439E2A0042A5007FB09A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D8543A52A0045C1007FB09A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5D8543972A0042A4007FB09A /* YelpMapKitApp.swift */,
 				5D8543992A0042A4007FB09A /* ContentView.swift */,
+				5D8543A52A0045C1007FB09A /* APIKeys.swift */,
 				5D85439B2A0042A5007FB09A /* Assets.xcassets */,
 				5D85439D2A0042A5007FB09A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8543A62A0045C1007FB09A /* APIKeys.swift in Sources */,
 				5D85439A2A0042A4007FB09A /* ContentView.swift in Sources */,
 				5D8543982A0042A4007FB09A /* YelpMapKitApp.swift in Sources */,
 			);
