@@ -12,6 +12,10 @@
 		5D85439C2A0042A5007FB09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85439B2A0042A5007FB09A /* Assets.xcassets */; };
 		5D85439F2A0042A5007FB09A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D85439E2A0042A5007FB09A /* Preview Assets.xcassets */; };
 		5D8543A62A0045C1007FB09A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543A52A0045C1007FB09A /* APIKeys.swift */; };
+		5D8543AA2A004746007FB09A /* YelpFusionAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543A92A004746007FB09A /* YelpFusionAPIService.swift */; };
+		5D8543AC2A00475A007FB09A /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543AB2A00475A007FB09A /* Business.swift */; };
+		5D8543AE2A004AAF007FB09A /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543AD2A004AAF007FB09A /* BusinessViewModel.swift */; };
+		5D8543B02A0059F1007FB09A /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8543AF2A0059F1007FB09A /* BusinessDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		5D85439B2A0042A5007FB09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D85439E2A0042A5007FB09A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D8543A52A0045C1007FB09A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		5D8543A92A004746007FB09A /* YelpFusionAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpFusionAPIService.swift; sourceTree = "<group>"; };
+		5D8543AB2A00475A007FB09A /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		5D8543AD2A004AAF007FB09A /* BusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		5D8543AF2A0059F1007FB09A /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			children = (
 				5D8543972A0042A4007FB09A /* YelpMapKitApp.swift */,
 				5D8543992A0042A4007FB09A /* ContentView.swift */,
+				5D8543AF2A0059F1007FB09A /* BusinessDetailView.swift */,
+				5D8543AD2A004AAF007FB09A /* BusinessViewModel.swift */,
+				5D8543A92A004746007FB09A /* YelpFusionAPIService.swift */,
+				5D8543AB2A00475A007FB09A /* Business.swift */,
 				5D8543A52A0045C1007FB09A /* APIKeys.swift */,
 				5D85439B2A0042A5007FB09A /* Assets.xcassets */,
 				5D85439D2A0042A5007FB09A /* Preview Content */,
@@ -141,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8543A62A0045C1007FB09A /* APIKeys.swift in Sources */,
+				5D8543B02A0059F1007FB09A /* BusinessDetailView.swift in Sources */,
 				5D85439A2A0042A4007FB09A /* ContentView.swift in Sources */,
+				5D8543AA2A004746007FB09A /* YelpFusionAPIService.swift in Sources */,
+				5D8543AC2A00475A007FB09A /* Business.swift in Sources */,
+				5D8543AE2A004AAF007FB09A /* BusinessViewModel.swift in Sources */,
 				5D8543982A0042A4007FB09A /* YelpMapKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
