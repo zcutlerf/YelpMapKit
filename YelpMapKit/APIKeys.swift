@@ -7,5 +7,6 @@
 
 import Foundation
 
+#warning("TODO: Please put your own API key here, so that your HTTP request will work.")
 let yelpClientID = ""
 let yelpAPIKey = ""
